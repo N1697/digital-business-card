@@ -5,7 +5,13 @@ const CardBody = () => {
   return (
     <div className="card-body">
       <h1 className="card-body-header">Le Quang Nghi</h1>
-      <p>Frontend Developer</p>
+
+      <div className="card-body-phone-number">
+        <span>Frontend Developer</span>
+        <a href="tel: 0369-848-090">
+          <i className="fa-solid fa-phone"></i> 0369-848-090
+        </a>
+      </div>
 
       <div className="btn-group">
         <button type="button" className="btn btn-primary btn-email">

@@ -35,10 +35,22 @@ body {
 
 .card-body {
   background-color: #191919;
+  padding: 0 1rem;
 }
 
 .card-body-header {
   font-weight: bold;
+}
+
+.card-body-phone-number {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.card-body-phone-number a {
+  text-decoration: none;
+  color: white;
 }
 
 .card-body button {
