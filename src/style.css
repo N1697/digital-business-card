@@ -6,17 +6,32 @@ body {
 }
 
 .card {
-  width: 500px;
+  width: 450px;
   text-align: center;
   color: white;
   background-color: black;
   border: 2px solid white;
 }
-
+.card-header {
+  padding: 10px;
+}
 .avatar {
   border-radius: 100%;
   width: 200px;
 }
+
+/*Zoom IN/OUT*/
+/* .click-zoom input[type="checkbox"] {
+  display: none;
+}
+.click-zoom img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+.click-zoom input[type="checkbox"]:checked ~ img {
+  transform: scale(2);
+  cursor: zoom-out;
+} */
 
 .card-body {
   background-color: #191919;
@@ -28,6 +43,22 @@ body {
 
 .card-body button {
   width: 200px;
+}
+
+.card-body .email-link,
+.cv-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+.card-body .email-link {
+  color: white;
+}
+
+.card-body .cv-link {
+  color: black;
 }
 
 .card-body-text-content {
@@ -45,7 +76,11 @@ body {
   align-items: center;
 }
 
+.card-footer a {
+  text-decoration: none;
+}
+
 .card-footer i {
+  color: white;
   font-size: 50px;
-  cursor: pointer;
 }

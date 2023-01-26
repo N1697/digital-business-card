@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CV from "../images/Front-End Developer Internship - Lê Quang Nghị.png";
 
 const CardBody = () => {
   return (
@@ -7,19 +8,23 @@ const CardBody = () => {
       <p>Frontend Developer</p>
 
       <div className="btn-group">
-        <button type="button" className="btn btn-primary">
-          <i className="fa-solid fa-envelope"></i> Email
+        <button type="button" className="btn btn-primary btn-email">
+          <a href="mailto: lequangnghi16797@gmail.com" className="email-link">
+            <i className="fa-solid fa-envelope"></i> Email
+          </a>
         </button>
-        <button type="button" className="btn btn-light">
-          <i className="fa-brands fa-linkedin"></i> LinkedIn
+        <button type="button" className="btn btn-light btn-cv">
+          <a href={CV} target="_blank" className="cv-link">
+            <i className="fa-solid fa-file"></i> CV
+          </a>
         </button>
       </div>
 
       <div className="card-body-text-content">
         <h5>About</h5>
         <p>
-          I'm a self-taught programmer with solid foundation of Web Development
-          who looking for an opportunity to sharpen my skills
+          I'm a programmer with solid foundation of Web Development who looking
+          for an opportunity to sharpen my skills
         </p>
 
         <h5>Skills</h5>
