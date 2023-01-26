@@ -35,7 +35,6 @@ body {
 
 .card-body {
   background-color: #191919;
-  padding: 0 1rem;
 }
 
 .card-body-header {
@@ -76,6 +75,7 @@ body {
 .card-body-text-content {
   text-align: left;
   margin-top: 20px;
+  padding: 0 1rem;
 }
 
 .card-body-text-content h5 {
