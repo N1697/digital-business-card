@@ -30,14 +30,14 @@ const CardBody = () => {
         <h5>About</h5>
         <p>
           I'm a programmer with solid foundation of Web Development who looking
-          for an opportunity to sharpen my skills
+          for an <strong>Internship</strong> to sharpen my skills
         </p>
 
         <h5>Skills</h5>
-        <p>
-          HTML, CSS, JavaScript, jQuery, Boostrap, JSON, ReactJS, NodeJS, AJAX,
-          AXIOS
-        </p>
+        <ul>
+          <li>Main Skills: HTML, CSS, JavaScript, ReactJS</li>
+          <li>Other Skills: jQuery, Boostrap, JSON, NodeJS, AJAX, AXIOS</li>
+        </ul>
       </div>
     </div>
   );

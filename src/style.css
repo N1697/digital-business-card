@@ -12,12 +12,9 @@ body {
   background-color: black;
   border: 2px solid white;
 }
-.card-header {
-  padding: 10px;
-}
+
 .avatar {
-  border-radius: 100%;
-  width: 200px;
+  width: 50%;
 }
 
 /*Zoom IN/OUT*/

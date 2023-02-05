@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../images/avatar.jpeg";
+import avatar from "../images/avatar.jpg";
 
 const CardHeader = () => {
   return (
